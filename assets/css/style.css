@@ -1,0 +1,214 @@
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding-top: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+
+}
+.main-window{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background-color: rgba(255,255,255,1);
+    box-sizing: border-box;
+    
+}
+.heading{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: teal;
+    color: white;
+    box-shadow: 2px 2px 4px #000000;
+}
+h2{
+    display: inline;
+    text-transform: uppercase;
+
+}
+#expandInput{
+    float: right;
+    margin-top: 0px;
+    margin-right: 5px;
+    background-color: inherit;
+    border: none;
+    padding: none;
+    font-size: 2rem;
+    color: white;
+
+}
+#newTask{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+ul{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+ul li{
+    list-style-type: none;
+    text-align: left;
+    /* padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%; */
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue */
+}
+.buttons .fas.fa-check{
+    /* float: right; */
+    background-color:rgb(6, 175, 6);
+    color: white;
+    padding: 10%;
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    width:50%;
+    text-align: center;
+    vertical-align: center;
+    text-transform: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px #9b9898;
+    
+}
+.buttons .fas.fa-trash-alt{
+    /* float: right; */
+    background-color: red;
+    color: white;
+    font-size: 1.8rem;
+    width:50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10%;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px #9b9898;
+}
+.taskSection{
+    margin: 0px 0px;
+}
+.buttons .fa.fa-undo{
+    /* float: right; */
+    background-color: rgb(245, 188, 30);
+    color: white;
+    padding: 10%;
+    font-size: 1.8rem;
+    text-align: center;
+    display:none;
+    width: 50%;
+    box-sizing: border-box;
+    text-transform: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px #9b9898;
+}
+.strike{
+    text-decoration: line-through;
+}
+.buttons{
+    box-sizing: border-box;
+    display: none;
+    text-transform: none;
+    width: 20%;
+}
+.inflex-buttons{
+    display: inline-flex;
+}
+ul li .text{
+    font-size: 1.5rem;
+    /* margin-bottom: 5px; */
+    margin-left: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.buttons .strike{
+    text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+    .heading{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        background-color: teal;
+        color: white;
+        box-shadow: 2px 2px 4px #000000;
+    }
+    .main-window{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        background-color: rgba(255,255,255,1);
+        box-sizing: border-box;
+        
+    }
+    .buttons{
+        box-sizing: border-box;
+        display: none;
+        text-transform: none;
+        width: 30%;
+    }
+    .buttons .fa.fa-undo{
+        /* float: right; */
+        background-color: rgb(245, 188, 30);
+        color: white;
+        padding: 10%;
+        font-size: 1.5rem;
+        text-align: center;
+        display:none;
+        width: 50%;
+        box-sizing: border-box;
+        text-transform: none;
+        border-radius: 2px;
+        box-shadow: 2px 2px 4px #9b9898;
+    }
+    .buttons .fas.fa-trash-alt{
+        /* float: right; */
+        background-color: red;
+        color: white;
+        font-size: 1.5rem;
+        width:50%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10%;
+        text-decoration: none;
+        border-radius: 2px;
+        box-shadow: 2px 2px 4px #9b9898;
+    }
+    .buttons .fas.fa-check{
+        /* float: right; */
+        background-color:rgb(6, 175, 6);
+        color: white;
+        padding: 10%;
+        font-size: 1.5rem;
+        box-sizing: border-box;
+        width:50%;
+        text-align: center;
+        vertical-align: center;
+        text-transform: none;
+        border-radius: 2px;
+        box-shadow: 2px 2px 4px #9b9898;
+        
+    }
+    .inflex-buttons{
+        display: inline-flex;
+    }
+    ul li .text{
+        font-size: 1.5rem;
+        /* margin-bottom: 5px; */
+        margin-left: 10px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .buttons .strike{
+        text-decoration: none;
+    }
+    
+}
+
+
+
